@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+          
+     <remote name="ras"
+            fetch="https://github.com/rasenss"/>
+     <remote name="protonclang"
+            fetch="https://github.com/kdrag0n" />
+     <remote name="arrowos"
+            fetch="https://github.com/ArrowOS-Devices" />
+     <remote name="lineg"
+            fetch="https://github.com/LineageOS" />
+     <remote name="arrow"
+            fetch="https://github.com/ArrowOS" />
+
+
+   <!-- Device Trees -->
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
+        
+      
+  <!-- Vendor Trees -->
+        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+      
+       
+  <!-- Kernel Trees -->
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+        
+      
+  <!-- Clang & MiuiCamera -->
+        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="protonclang" revision="master" clone-depth="1" />
+        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
+  
+<!-- additional -->
+        <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="lineg" revision="lineage-18.1" />
+ 
+<!-- Hals -->
+       <remove-project name="platform_hardware_qcom_display-sm8150-caf" /> 
+       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
+
+</manifest>
