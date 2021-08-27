@@ -29,9 +29,7 @@
         <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="protonclang" revision="master" clone-depth="1" />
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
-<!-- additional -->
-       <project name="android_hardware_xiaomi" path="hardware/xiaomi" remote="arrowos" revision="arrow-11.0" />
-<!-- Hals -->
+  <!-- Hals -->
        <remove-project name="platform_hardware_qcom_media-sm8150-caf" />
        <remove-project name="platform_hardware_qcom_audio-sm8150-caf" />
       <remove-project name="platform_hardware_qcom_display-sm8150-caf" /> 
