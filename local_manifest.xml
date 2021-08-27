@@ -30,9 +30,9 @@
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
-       <remove-project name="platform_hardware_qcom_media-sm8150-caf" />
-       <remove-project name="platform_hardware_qcom_audio-sm8150-caf" />
-      <remove-project name="platform_hardware_qcom_display-sm8150-caf" /> 
+       <remove-project name="platform_hardware_qcom_media" />
+       <remove-project name="platform_hardware_qcom_audio" />
+      <remove-project name="platform_hardware_qcom_display" /> 
        <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
