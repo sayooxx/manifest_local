@@ -26,14 +26,12 @@
         
       
   <!-- Clang & MiuiCamera -->
-        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="protonclang" revision="master" clone-depth="1" />
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
        <remove-project name="android_hardware_qcom_media" />
        <remove-project name="android_hardware_qcom_audio" />
-      <remove-project name="android_hardware_qcom_display" /> 
-       <remove-project name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.17-4.8" />
+      <remove-project name="android_hardware_qcom_display" />
        <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
