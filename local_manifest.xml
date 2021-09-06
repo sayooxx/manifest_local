@@ -11,6 +11,8 @@
             fetch="https://github.com/LineageOS" />
      <remote name="arrow"
             fetch="https://github.com/ArrowOS" />
+     <remote name="gr"
+            fetch="https://github.com/ghostrider-reborn" />
 
 
    <!-- Device Trees -->
@@ -22,7 +24,7 @@
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
         
       
   <!-- Clang & MiuiCamera -->
