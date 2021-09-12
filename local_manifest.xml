@@ -3,8 +3,8 @@
           
      <remote name="ras"
             fetch="https://github.com/rasenss"/>
-     <remote name="protonclang"
-            fetch="https://github.com/kdrag0n" />
+     <remote name="azure"
+            fetch="https://github.com/Panchajanya1999/azure-clang" />
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
      <remote name="lineg"
@@ -24,11 +24,11 @@
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
         
       
   <!-- Clang & MiuiCamera -->
-        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="protonclang" revision="master" clone-depth="1" />     
+        <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="master" clone-depth="1" />     
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
