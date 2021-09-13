@@ -4,7 +4,7 @@
      <remote name="ras"
             fetch="https://github.com/rasenss"/>
      <remote name="azure"
-            fetch="https://github.com/Panchajanya1999" />
+            fetch="https://gitlab.com/Panchajanya1999" />
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
      <remote name="lineg"
