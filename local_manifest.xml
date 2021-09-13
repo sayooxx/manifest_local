@@ -28,7 +28,7 @@
         
       
   <!-- Clang & MiuiCamera -->
-        <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="master" clone-depth="1" />     
+        <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" clone-depth="1" />     
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
