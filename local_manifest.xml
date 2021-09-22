@@ -32,7 +32,7 @@
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" clone-depth="1" />     
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
-<-- additional -->
+<!-- additional --!>
         <project name="android_vendor_qcom_opensource_healthd-ext" path="vendor/qcom/opensource/healthd-ext" remote="lineg" revision="lineage-18.1" />
 
   <!-- Hals -->
