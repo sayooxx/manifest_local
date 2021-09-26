@@ -11,8 +11,8 @@
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
-     <remote name="gcc" />
-            fetch="https://github.com/mvaisakh" />
+     <remote name="gcc" 
+           fetch="https://github.com/mvaisakh" />
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
