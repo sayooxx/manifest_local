@@ -23,7 +23,7 @@
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="11.0" />
         
       
   <!-- Gcc & MiuiCamera -->
