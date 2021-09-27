@@ -27,8 +27,8 @@
         
       
   <!-- Gcc & MiuiCamera -->
-        <project name="gcc-arm64" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf/bin/aarch64-elf-" remote="gcc" revision="gcc-master" clone-depth="1" />     
-          <project name="gcc-arm" path="prebuilts/gcc/linux-x86/arm/arm-eabi/bin/arm-eabi-" remote="gcc" revision="gcc-master" clone-depth="1" />
+        <project name="gcc-arm64" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf/bin" remote="gcc" revision="gcc-master" clone-depth="1" />     
+          <project name="gcc-arm" path="prebuilts/gcc/linux-x86/arm/arm-eabi/bin" remote="gcc" revision="gcc-master" clone-depth="1" />
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
