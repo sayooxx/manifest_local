@@ -11,8 +11,8 @@
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
-     <remote name="gcc" 
-           fetch="https://github.com/mvaisakh" />
+     <remote name="azure" 
+           fetch="https://gitlab.com/Panchajanya1999/" />
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
@@ -27,9 +27,8 @@
         
       
   <!-- Gcc & MiuiCamera -->
-        <project name="gcc-arm64" path="prebuilts/gcc/linux-x86/aarch64/aarch64-elf" remote="gcc" revision="gcc-master" clone-depth="1" />     
-          <project name="gcc-arm" path="prebuilts/gcc/linux-x86/arm/arm-eabi" remote="gcc" revision="gcc-master" clone-depth="1" />
-         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
+        <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
+        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
        <remove-project name="android_hardware_qcom_display" />
