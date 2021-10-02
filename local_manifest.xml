@@ -23,7 +23,7 @@
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="11.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
         
       
   <!-- Gcc & MiuiCamera -->
@@ -31,9 +31,9 @@
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
   <!-- Hals -->
-       <remove-project name="android_hardware_qcom_display" />
-       <remove-project name="android_hardware_qcom_media" />
-      <remove-project name="android_hardware_qcom_audio" />
+       <remove-project name="platform_hardware_qcom_display" />
+       <remove-project name="platform_hardware_qcom_media" />
+      <remove-project name="platform_hardware_qcom_audio" />
        <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
