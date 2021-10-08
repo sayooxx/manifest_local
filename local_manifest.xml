@@ -41,10 +41,7 @@
   <!-- Additional -->
       <remove-project name="android_frameworks_base" />
       <remove-project name="android_packages_apps_Settings" />
-      <remove-project name="android_packages_apps_Customizations" />
       <project name="android_framework_base" path="frameworks/base" remote="ras" revision="dot11" />
       <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ras" revision="dot11" />
-      <project name="android_packages_apps_Customizations" path="packages/apps/Customizations" remote="ras" revision="dot11" />
-
-
+      
 </manifest>
