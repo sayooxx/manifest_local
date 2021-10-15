@@ -38,12 +38,6 @@
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
   
-  <!-- Additional -->
-      <remove-project name="android_frameworks_base" />
-      <remove-project name="android_packages_apps_Settings" />
-      <project name="android_frameworks_base" path="frameworks/base" remote="ras" revision="dot11" />
-      <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ras" revision="dot11" />
-      <project name="android_packages_apps_Customizations" path="packages/apps/Customizations" remote="ras" revision="dot11" />
 
 
 </manifest>
