@@ -15,7 +15,7 @@
            fetch="https://gitlab.com/Panchajanya1999/" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
         
       
   <!-- Vendor Trees -->
