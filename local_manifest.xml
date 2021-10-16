@@ -26,7 +26,7 @@
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
         
       
-  <!-- Gcc & MiuiCamera -->
+  <!-- Clang & MiuiCamera -->
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
         
   <!-- Hals -->
@@ -37,6 +37,7 @@
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
   
+  <!-- Cuttlefish -->
       <remove-project name="device/generic/opengl-transport" />
 
 </manifest>
