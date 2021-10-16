@@ -40,7 +40,7 @@
   <!-- Cuttlefish -->
       <remove-project name="device/generic/opengl-transport" />
       <remove-project name="platform/packages/modules/Virtualization" />
-      <remove-project name="external/e2fsprogs/lib/Android.bp" />
+      <remove-project name="external/e2fsprogs/lib" />
 
 </manifest>
 
