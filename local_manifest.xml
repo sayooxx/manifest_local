@@ -39,5 +39,6 @@
   
   <!-- Cuttlefish -->
       <remove-project name="device/generic/opengl-transport" />
+      <remove-project name="platform/packages/modules/Virtualization" />
 
 </manifest>
