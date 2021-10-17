@@ -34,9 +34,12 @@
        <remove-project name="android_hardware_qcom_display" />
        <remove-project name="android_hardware_qcom_media" />
       <remove-project name="android_hardware_qcom_audio" />
+       <remove-project name="android_vendor_qcom_opensource_power" />
        <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
+      <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" revision="arrow-11.0" />
+
   
   
 </manifest>
