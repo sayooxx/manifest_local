@@ -15,7 +15,7 @@
            fetch="https://gitlab.com/Panchajanya1999/" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
         
       
   <!-- Vendor Trees -->
@@ -28,18 +28,16 @@
       
   <!-- Clang & MiuiCamera -->
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
-        
+        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
+
   <!-- Hals -->
-       <remove-project name="xd_hardware_qcom-caf_display" />
-       <remove-project name="xd_hardware_qcom-caf_media" />
-      <remove-project name="xd_hardware_qcom-caf_audio" />
-       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
+       <remove-project name="android_hardware_qcom_display" />
+       <remove-project name="android_hardware_qcom_media" />
+      <remove-project name="android_hardware_qcom_audio" />
+       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
+      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
+      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
   
-  <!-- Cuttlefish -->
-      <remove-project name="device/generic/opengl-transport" />
-      <remove-project name="platform/packages/modules/Virtualization" />
-      
+  
 </manifest>
 
