@@ -14,7 +14,7 @@
      <remote name="azure" 
            fetch="https://gitlab.com/Panchajanya1999/" />
      <remote name="yuki"
-           fetch="https://github.com/yukiscape"
+           fetch="https://github.com/yukiscape" />
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
