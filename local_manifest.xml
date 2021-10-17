@@ -44,7 +44,7 @@
       <remove-project name="device/generic/opengl-transport" />
       <remove-project name="platform/packages/modules/Virtualization" />
       <remove-project name="platform/external/e2fsprogs" />
-      <remove-project name=platform/external/gptfdisk" />
+      <remove-project name="platform/external/gptfdisk" />
       <remove-project name="platform/system/core/fs_mgr" />
 
 </manifest>
