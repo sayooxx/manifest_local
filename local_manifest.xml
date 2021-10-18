@@ -45,7 +45,7 @@
       <remove-project name="platform/packages/modules/Virtualization" />
       <remove-project name="platform/external/e2fsprogs" />
       <remove-project name="platform/external/gptfdisk" />
-      <remove-project name="system/core/fs_mgr" />
+      <remove-project name="system/core" />
 
 </manifest>
 
