@@ -17,31 +17,28 @@
            fetch="https://github.com/yukiscape" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
+        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="yuki" revision="12" />
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
+        <project name="android_kernel_xiaomi_ginkgo-kernel" path="kernel/xiaomi/ginkgo" remote="yuki" revision="12" />
         
       
   <!-- Clang & MiuiCamera -->
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
-        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
-
+        
   <!-- Hals -->
-       <remove-project name="android_hardware_qcom_media" />
-       <remove-project name="android_hardware_qcom_audio" />
-      <remove-project name="android_hardware_qcom_display" />
-       <remove-project name="android_vendor_qcom_opensource_power" />
-       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-11.0-caf-sm8150" />
-      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-11.0-caf-sm8150" />
-      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-11.0-caf-sm8150" />
-      <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" revision="arrow-11.0" />
-
+      <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
+      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
+      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
+      <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" revision="arrow-12.0" />
+  
+  <!-- Cutllefish -->
+     <remove-project name="device/generic/opengl-transport" />
  
 </manifest>
 
