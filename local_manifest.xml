@@ -5,8 +5,8 @@
             fetch="https://github.com/rasenss"/>
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
-     <remote name="lineg"
-            fetch="https://github.com/LineageOS" />
+     <remote name="sixten"
+            fetch="https://github.com/Kyvangka1610" />
      <remote name="arrow"
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
@@ -25,7 +25,7 @@
       
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo-kernel" path="kernel/xiaomi/ginkgo" remote="yuki" revision="12" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="sixten" revision="LA.UM.9.1.r1-08100-SMxxx0.0" />
         
       
   <!-- Clang & MiuiCamera -->
