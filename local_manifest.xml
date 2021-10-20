@@ -23,7 +23,7 @@
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="yuki" revision="12" />
         <project name="device_qcom_sepolicy_vndr" path=device/qcom/sepolicy_vndr" remote="yuki" revision="android-12" />
-       " 
+       
   <!-- Kernel Trees -->
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="sixten" revision="LA.UM.9.1.r1-08100-SMxxx0.0" />
   
