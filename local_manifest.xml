@@ -28,7 +28,7 @@
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="sixten" revision="LA.UM.9.1.r1-08100-SMxxx0.0" />
   
   <!-- vndr -->
-       <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="yuki" revision="android-12"
+       <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="yuki" revision="android-12" />
       
   <!-- Clang & MiuiCamera -->
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
