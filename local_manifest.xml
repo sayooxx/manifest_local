@@ -5,8 +5,8 @@
             fetch="https://github.com/rasenss"/>
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
-     <remote name="sixten"
-            fetch="https://github.com/Kyvangka1610" />
+     <remote name="pixelos"
+            fetch="https://github.com/PixelOS-ginkgo" />
      <remote name="arrow"
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
@@ -15,17 +15,17 @@
            fetch="https://gitlab.com/Panchajanya1999/" />
      <remote name="yuki"
            fetch="https://github.com/yukiscape" />
-
+     
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="yuki" revision="12" />
+        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
         <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="yuki" revision="android-12" />
        
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="sixten" revision="LA.UM.9.1.r1-08100-SMxxx0.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
   
 
   <!-- Clang & MiuiCamera -->
@@ -37,7 +37,8 @@
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
       <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" revision="arrow-12.0" />
-  
+      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="arrowos" revision="arrow-12.0" />
+ 
   <!-- Cutllefish -->
      <remove-project name="device/generic/opengl-transport" />
  
