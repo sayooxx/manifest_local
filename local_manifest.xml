@@ -7,7 +7,7 @@
             fetch="https://github.com/ArrowOS-Devices" />
      <remote name="pixelos"
             fetch="https://github.com/PixelOS-ginkgo" />
-     <remote name="arrow"
+     <remote name="Arrow"
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
@@ -36,11 +36,11 @@
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
    <!-- Hals -->
-      <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
-      <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="arrow" revision="arrow-12.0" />
-      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="arrow" revision="arrow-12.0" />
+      <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
+      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
+      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
+      <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="Arrow" revision="arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" revision="arrow-12.0" />
 
   <!-- Cutllefish -->
      <remove-project name="device/generic/opengl-transport" />
