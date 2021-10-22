@@ -25,8 +25,8 @@
       
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
-        <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="yuki" revision="android-12" />
-       
+        <project path="device/qcom/sepolicy/vndr" name="jjpprrrr/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
+   
   <!-- Kernel Trees -->
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
   
