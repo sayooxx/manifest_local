@@ -13,11 +13,8 @@
             fetch="https://github.com/ghostrider-reborn" />
      <remote name="azure" 
            fetch="https://gitlab.com/Panchajanya1999/" />
-     <remote name="yuki"
-           fetch="https://github.com/yukiscape" />
-     <remote name="lineg"
-           fetch="https://github.com/LineageOS" />
-
+     <remote name="vndr"
+           fetch="https://github.com/jjpprrrr" />
      
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
@@ -25,7 +22,7 @@
       
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
-        <project path="device/qcom/sepolicy/vndr" name="jjpprrrr/device_qcom_sepolicy_vndr" revision="twelve" remote="github" />
+        <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy/vndr" revision="twelve" remote="vndr" />
    
   <!-- Kernel Trees -->
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="gr" revision="11.0" />
