@@ -47,8 +47,6 @@
       <project path="vendor/qcom/opensource/power" name="android_vendor_qcom_opensource_power" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" revision="arrow-12.0" />
 
-  <!-- Cutllefish -->
-     <remove-project name="device/generic/opengl-transport" />
  
 </manifest>
 
