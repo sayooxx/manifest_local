@@ -31,7 +31,7 @@
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
    <!-- Hals -->
-     <remove-project name="device_qcom_sepolicy_vndr"
+     <remove-project name="device_qcom_sepolicy_vndr" />
       <remove-project name="android_vendor_qcom_opensource_power" />
       <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
       <remove-project name="android_hardware_qcom_display" />
