@@ -31,10 +31,10 @@
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
    <!-- Hals -->
-      <remove-project name="android_vendor_qcom_opensource_display-commonsys-intf" />
-      <remove-project name="android_hardware_qcom_display" />
-      <remove-project name="android_hardware_qcom_media" />
-      <remove-project name="android_hardware_qcom_audio" />
+      <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
+      <remove-project name="LineageOS/android_hardware_qcom_display" />
+      <remove-project name="LineageOS/android_hardware_qcom_media" />
+      <remove-project name="LineageOS/android_hardware_qcom_audio" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
