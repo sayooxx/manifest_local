@@ -33,7 +33,7 @@
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-11.0-a3" />
   
-  <! Bluetooth -->
+  <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
         <remove-project name="LineageOS/android_vendo_qcom_opensource_bluetooth_ext" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
