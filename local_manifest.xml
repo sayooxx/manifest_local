@@ -35,7 +35,7 @@
   
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-        <remove-project name="LineageOS/android_vendo_qcom_opensource_bluetooth_ext" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
         
