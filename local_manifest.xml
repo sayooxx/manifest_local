@@ -37,7 +37,7 @@
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
-        <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
+        <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
   
  <!-- Hals -->
       <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
