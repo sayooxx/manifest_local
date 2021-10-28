@@ -39,7 +39,9 @@
         <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
         <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
         <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
- <!-- Hals -->
+        <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+ 
+  <!-- Hals -->
       <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
       <remove-project name="LineageOS/android_hardware_qcom_display" />
       <remove-project name="LineageOS/android_hardware_qcom_media" />
@@ -50,6 +52,7 @@
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" groups="qcom,pdk-qcom" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" groups="qcom,qcom-fm" remote="Arrow" revision="arrow-12.0" />
- 
+      <project name="android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="Arrow" revision="arrow-12.0" />
+
 </manifest>
 
