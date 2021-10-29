@@ -39,5 +39,8 @@
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
       
+   <!-- Rmv -->
+        <remove-project name="platform/hardware/nxp/nfc"
+
 </manifest>
 
