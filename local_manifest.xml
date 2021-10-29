@@ -41,6 +41,7 @@
       
    <!-- Rmv -->
         <remove-project name="platform/hardware/nxp/nfc" />
+        <remove-project name="platform/hardware/nxp/secure_element" />
 
 </manifest> 
 
