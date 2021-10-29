@@ -30,7 +30,12 @@
   <!-- Clang & MiuiCamera -->
         <project name="azure-clang" path="prebuilts/clang/host/linux-x86/clang-azure" remote="azure" revision="main" />     
         
-  
+  <!-- Bluetooth -->
+        <remove-project name="platform_vendor_qcom_opensource_system_bt" />
+        <remove-project name="platform_vendor_qcom_opensource_bluetooth_ext" />
+        <remove-project name="platform_vendor_qcom_opensource_bluetooth-commonsys-intf" />
+        <remove-project name="platform_vendor_qcom_opensource_packages_apps_Bluetooth" />
+
   <!-- Hals -->
       <remove-project name="platform_hardware_qcom_display" />
       <remove-project name="platform_hardware_qcom_media" />
