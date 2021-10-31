@@ -33,8 +33,8 @@
    <!-- Rmv -->
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
-        <remove-project name="platform/vendor/nxp/opensource/commonsys/packages/apps/Nfc/nci/SN100x/jni/SecureElement" />
-        <remove-project name="platform/vendor/nxp/opensource/commonsys/packages/apps/Nfc/nci/SN100x/jni/SecureDigitization" />
+        <remove-project name="platform/vendor/nxp/opensource/commonsys/packages/apps/Nfc/nci/SN100x/jni/SecureElement.cpp" />
+        <remove-project name="platform/vendor/nxp/opensource/commonsys/packages/apps/Nfc/nci/SN100x/jni/SecureDigitization.cpp" />
         
   <!-- Bluetooth -->
         <remove-project name="platform_vendor_qcom_opensource_system_bt" />
