@@ -39,7 +39,9 @@
   <!-- Rmv -->
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
-        
+        <remove-project name="frameworks/base"
+        <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
+  
   <!-- Hals -->
       <remove-project name="hardware/qcom-caf/sm8150/display" />
       <remove-project name="hardware/qcom-caf/sm8150/audio" />
