@@ -63,9 +63,5 @@
       <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x />
-
-
-
-
 </manifest> 
 
