@@ -47,7 +47,7 @@
       <remove-project name="platform_hardware_qcom_audio" />
       <remove-project name="platform_hardware_qcom_media" />
       <remove-project name="platform_vendor_nxp_opensource_packages_apps_Nfc" />
-      <remove-project name="platform_vendor_nxp_opensource_frameworks" />
+      <remove-project name="platform_vendor_nxp_opensource_external_libnfc-nci" />
       <remove-project name="platform_vendor_nxp_interfaces_opensource_nfc" />
       <remove-project name="platform_vendor_nxp_opensource_frameworks" />
       <remove-project name="platform/packages/apps/Nfc" />
