@@ -44,7 +44,7 @@
         <remove-project name="platform_frameworks_base" />
         <remove-project name="platform_frameworks_av" />
         <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
-        <project name="platform_frameworks_av" path="franeworks/av" remote="ras" revision="12.x"
+        <project name="platform_frameworks_av" path="franeworks/av" remote="ras" revision="12.x" />
  
   <!-- Hals -->
       <remove-project name="platform_hardware_qcom_display" />
