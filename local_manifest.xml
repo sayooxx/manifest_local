@@ -5,28 +5,28 @@
             fetch="https://github.com/rasenss"/>
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
-     <remote name="pixelos"
-            fetch="https://github.com/PixelOS-ginkgo" />
+     <remote name="pasco"
+            fetch="https://github.com/Pascoato" />
      <remote name="Arrow"
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
      <remote name="azure" 
            fetch="https://gitlab.com/Panchajanya1999/" />
-     <remote name="fl"
-           fetch="https://github.com/Project-Fluid" />
+     <remote name="madmax"
+           fetch="https://github.com/madmax7896" />
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
+        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="madmax" revision="12.0" />
         <remove-project name="platform_device_qcom_sepolicy_vndr" />
         <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="ras" revision="12.x" />
   
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="pasco" revision="12.0" />
   
 
   <!-- Clang & MiuiCamera -->
@@ -42,10 +42,8 @@
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
         <remove-project name="platform_frameworks_base" />
-        <remove-project name="platform_frameworks_av" />
-        <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
-        <project name="platform_frameworks_av" path="franeworks/av" remote="Arrow" revision="arrow-12.0 />
- 
+         <project name="platform_frameworks_base" path="frameworks/base" remote="ras" revision="12.x" />
+        
   <!-- Hals -->
       <remove-project name="platform_hardware_qcom_display" />
       <remove-project name="platform_hardware_qcom_audio" />
