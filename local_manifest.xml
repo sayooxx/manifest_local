@@ -49,7 +49,7 @@
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_qcom_opensource_fm-commonsys" path="vendor/qcom/opensource/fm-commonsys" remote="Arrow" groups="qcom,qcom_fm" revision="arrow-12.0" />
-      <project name="android_vendod_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" groups="qcom,pdk-qcom" revision="arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" groups="qcom,pdk-qcom" revision="arrow-12.0" />
 
 </manifest> 
 
