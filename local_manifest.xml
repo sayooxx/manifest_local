@@ -42,7 +42,7 @@
       <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
       <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
       <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
-      <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonys-intf" />
+      <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
