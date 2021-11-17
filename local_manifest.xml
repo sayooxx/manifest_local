@@ -34,6 +34,10 @@
   <!-- Rmv -->
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
+        <remove-project name="android_frameworks_base" />
+        <remove-project name="android_packages_apps_Cherish" />
+        <project name="android_frameworks_base" path="frameworks/base" remote="ras" revision="twelve" />
+        <project name="android_packages_apps_Cherish" path="packages/apps/CherishSettings" remote="ras" revision="twelve" />
         
   <!-- Hals -->
       <remove-project name="LineageOS/android_hardware_qcom_display" />
