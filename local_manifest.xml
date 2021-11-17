@@ -36,8 +36,10 @@
         <remove-project name="platform/hardware/nxp/secure_element" />
         <remove-project name="android_frameworks_base" />
         <remove-project name="android_packages_apps_Cherish" />
+        <remove-project name="android_packages_apps_Settings" />
         <project name="android_frameworks_base" path="frameworks/base" remote="ras" revision="twelve" />
         <project name="android_packages_apps_Cherish" path="packages/apps/CherishSettings" remote="ras" revision="twelve" />
+        <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="ras" revision="twelve" />
         
   <!-- Hals -->
       <remove-project name="LineageOS/android_hardware_qcom_display" />
