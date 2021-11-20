@@ -11,8 +11,8 @@
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
-     <remote name="neutron" 
-           fetch="https://github.com/Neutron-Clang" />
+     <remote name="proton" 
+           fetch="https://github.com/kdrag0n" />
      <remote name="madmax"
            fetch="https://github.com/madmax7896" />
 
@@ -28,7 +28,7 @@
   
 
   <!-- Clang & MiuiCamera -->
-        <project name="neutron-toolchain" path="prebuilts/clang/host/linux-x86/clang-neutron" remote="neutron" revision="Neutron-14" />     
+        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proton" revision="master" />     
   
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
