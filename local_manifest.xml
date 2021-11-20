@@ -51,7 +51,7 @@
       <remove-project name="LineageOS/android_hardware_qcom_display" />
       <remove-project name="LineageOS/android_hardware_qcom_audio" />
       <remove-project name="LineageOS/android_hardware_qcom_media" />
-      <remove-project name="LineageOS/androidvendor_nxp_opensource_packages_apps_Nfc" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
       <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
       <remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
       <remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
