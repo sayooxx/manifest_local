@@ -28,8 +28,7 @@
   
 
   <!-- Clang & MiuiCamera -->
-        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proton" revision="master" />     
-  
+        
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
