@@ -11,7 +11,7 @@
             fetch="https://github.com/ArrowOS" />
      <remote name="gr"
             fetch="https://github.com/ghostrider-reborn" />
-     <remote name="proton" 
+     <remote name="proto" 
            fetch="https://github.com/kdrag0n" />
      <remote name="madmax"
            fetch="https://github.com/madmax7896" />
@@ -28,7 +28,8 @@
   
 
   <!-- Clang & MiuiCamera -->
-        
+        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proto" revision="master" />     
+
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
