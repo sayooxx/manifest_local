@@ -22,9 +22,7 @@
       
   <!-- Vendor Trees -->
         <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="madmax" revision="12.0" />
-        <remove-project name="platform_device_qcom_sepolicy_vndr" />
-        <project name="platform_device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="ras" revision="12.x" />
-  
+        
   <!-- Kernel Trees -->
         <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
   
