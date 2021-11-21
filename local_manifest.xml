@@ -39,11 +39,7 @@
   <!-- Rmv -->
         <remove-project name="platform/hardware/nxp/nfc" />
         <remove-project name="platform/hardware/nxp/secure_element" />
-        <remove-project name="frameworks_base" />
-        <remove-project name="packages_apps_Settings" />
-        <project name="frameworks_base" path="frameworks/base" remote="ras" revision="12" />
-        <project name="packages_apps_Settings" path="packages/apps/Settings" remote="ras" revision="12" />
-
+        
         
   
   <!-- Hals -->
