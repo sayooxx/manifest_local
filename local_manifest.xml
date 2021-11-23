@@ -24,7 +24,7 @@
         <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="madmax" revision="12.0" />
         
   <!-- Kernel Trees -->
-        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="pixelos" revision="twelve" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="Arrow-12.0" />
   
 
   <!-- Clang & MiuiCamera -->
