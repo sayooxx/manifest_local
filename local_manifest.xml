@@ -22,7 +22,7 @@
         
       
   <!-- Vendor Trees -->
-        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="madmax" revision="arrow-11.0" />
+        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="arrowos" revision="arrow-11.0" />
         
   <!-- Kernel Trees -->
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
