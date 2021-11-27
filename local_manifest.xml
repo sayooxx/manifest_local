@@ -19,8 +19,6 @@
            fetch="https://gitlab.com/Panchajanya1999" />
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="11" /> 
-        <remove-project name="build_soong" />
-        <project name="build_soong" path="build/soong" remote="ras" revision="fire" />
         
       
   <!-- Vendor Trees -->
