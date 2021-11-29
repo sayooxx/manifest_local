@@ -29,6 +29,10 @@
   <!-- Clang & MiuiCamera --> 
         <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proto" revision="master" />     
      
+  <!-- Rmv -->
+         <remove-project name="platform/hardware/nxp/secure_element" />
+         <remove-project name="platform/hardware/nxp/nfc" />
+  
   <!-- Hals -->
       <remove-project name="LineageOS/android_hardware_qcom_display" />
       <remove-project name="LineageOS/android_hardware_qcom_audio" />
