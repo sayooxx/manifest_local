@@ -17,11 +17,11 @@
            fetch="https://github.com/madmax7896" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12.0" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="madmax" revision="12.0" />        
+        <project name="vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="pixelos" revision="twelve" />        
 
   <!-- Kernel Trees -->
         <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="twelve" />
