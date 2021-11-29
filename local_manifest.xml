@@ -28,43 +28,20 @@
         
   <!-- Clang & MiuiCamera --> 
         <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proto" revision="master" />     
-        
-
-  <!-- Bluetooth -->
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
-        <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
-
-  <!-- Rmv -->
-        <remove-project name="platform/hardware/nxp/nfc" />
-        <remove-project name="platform/hardware/nxp/secure_element" />
-        
-        
-  
+     
   <!-- Hals -->
-      <remove-project name="hardware_qcom_display" />
-      <remove-project name="hardware_qcom_audio" />
-      <remove-project name="hardware_qcom_media" />
-      <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
-      <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
-      <remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
-      <remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
+      <remove-project name="LineageOS/android_hardware_qcom_display" />
+      <remove-project name="LineageOS/android_hardware_qcom_audio" />
+      <remove-project name="LineageOS/android_hardware_qcom_media" />
       <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
       <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
-      <remove-project name="packages_apps_Nfc" />
       <remove-project name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="Arrow" revision="arrow-12.0" />
-      <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="Arrow" revision="arrow-12.0" />
-      <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="Arrow" revision="arrow-12.0" />
-      <project name="android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" groups="qcom,pdk-qcom" revision="arrow-12.0" />
-      <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" remote="Arrow" revision="arrow-12.0" />
-    
+      
 </manifest> 
 
