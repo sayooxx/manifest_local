@@ -43,7 +43,7 @@
       <remove-project name="LineageOS/android_vendor_qcom_opensource_fm-commonsys" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups=pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
+      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" groups="qcom,pdk-qcom" revision="arrow-12.0" />
