@@ -27,6 +27,8 @@
         <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="twelve" />
         
   <!-- Clang & MiuiCamera --> 
+        <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proto" revision="master" />     
+        
 
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
