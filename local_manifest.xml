@@ -40,7 +40,7 @@
   <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
          <remove-project name="device_qcom_sepolicy_vndr" />
-         <project name="device_qcom_sepolicy_vndrx" path="device/qcom/sepolicy_vndr" remote="ras" revision="snow" />
+         <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="ras" revision="snow" />
         
   
   <!-- Hals -->
