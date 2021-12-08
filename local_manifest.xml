@@ -30,8 +30,8 @@
        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
   
    <!-- Rmv -->
-         <remove-project name="platform/hardware/nxp/nfc" />
-         <remove-project name="platform/hardware/nxp/secure_element" />
+         <remove-project name="manifest" />
+         <project name="manifest" path="manifest" revision="snow" remote="ras" />
          <remove-project name="device_qcom_sepolicy_vndr" />
          <project name="device_qcom_sepolicy_vndr" path="device/qcom/sepolicy_vndr" remote="ras" revision="snow" />
         
