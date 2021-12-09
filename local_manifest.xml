@@ -45,6 +45,6 @@
       <project name="android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
-      <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote=Arrow" revision="arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="Arrow" revision="arrow-12.0" />
 </manifest> 
 
