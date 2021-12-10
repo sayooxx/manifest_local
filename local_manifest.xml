@@ -36,6 +36,7 @@
         
    <!-- Hals -->
       <remove-project name="android_vendor_qcom_opensource_vibrator" />
+      <remove-project name="platform_vendor_qcom_opensource_display-commonsys-intf" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
@@ -48,6 +49,8 @@
       <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="Arrow" revision="arrow-12.0" />
       <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="Arrow" revision="arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" revision="Arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="Arrow" revision="arrow-12.0" />
      
 </manifest> 
 
