@@ -49,7 +49,7 @@
       <project name="android_vendor_qcom_opensource_vibrator" path="vendor/qcom/opensource/vibrator" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_qcom_opensource_power" path="vendor/qcom/opensource/power" remote="Arrow" revision="arrow-12.0" />
       <project name="android_device_qcom_sepolicy-legacy-um" path="device/qcom/sepolicy-legacy-um" remote="Arrow" revision="arrow-12.0" />
-      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" revision="Arrow-12.0" />
+      <project name="android_vendor_qcom_opensource_display-commonsys-intf" path="vendor/qcom/opensource/commonsys-intf/display" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_qcom_opensource_cryptfs_hw" path="vendor/qcom/opensource/cryptfs_hw" remote="Arrow" revision="arrow-12.0" />
      
 </manifest> 
