@@ -27,8 +27,6 @@
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
         
   <!-- Clang & MiuiCamera --> 
-        <remove-project name="varunhardgamer/trb_clang" />
-        <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" />
         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
   
      <!-- Bluetooth -->
