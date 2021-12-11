@@ -40,7 +40,6 @@
          <remove-project name="platform/hardware/nxp/secure_element" />
          <remove-project name="platform/hardware/nxp/nfc" />
          <remove-project name="hardware_xiaomi" />
-         <remove-project name="manifest" />
          <project name="manifest" path="manifest" remote="ras" revision="12" />
    
    <!-- Hals -->
