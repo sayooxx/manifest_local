@@ -13,8 +13,8 @@
             fetch="https://github.com/ghostrider-reborn" />
      <remote name="proto" 
            fetch="https://github.com/kdrag0n" />
-     <remote name="madmax"
-           fetch="https://github.com/madmax7896" />
+     <remote  name="gitlab"
+           fetch="https://gitlab.com/" />
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
@@ -27,8 +27,9 @@
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
         
   <!-- Clang & MiuiCamera --> 
-       <project name="proton-clang" path="prebuilts/clang/host/linux-x86/clang-proton" remote="proto" revision="master" />     
-       <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
+        <remove-project name="varunhardgamer/trb_clang" />
+        <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" />
+        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
   
      <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
