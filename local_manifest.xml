@@ -45,8 +45,8 @@
       <remove-project name="hardware_qcom-caf_sm8150_display" />
       <remove-project name="hardware_qcom-caf_sm8150_audio" />
       <remove-project name="hardware_qcom-caf_sm8150_media" />
-      <remove-project name="vendor_nxp_opensource_halimpl" />
-      <remove-project name="vendor_nxp_opensource_hidlimpl" />
+      <remove-project name="vendor_nxp_opensource_sn100x_halimpl" />
+      <remove-project name="vendor_nxp_opensource_sn100x_hidlimpl" />
       <remove-project name="vendor_nxp_opensource_packages_apps_Nfc" />
       <remove-project name="vendor_nxp_opensource_external_libnfc-nci" />
       <remove-project name="vendor_nxp_interfaces_opensource_nfc" />
