@@ -60,21 +60,21 @@
       <remove-project name="hardware_qcom-caf_sm8350_audio" />
       <remove-project name="hardware_qcom-caf_sm8350_display" />
       <remove-project name="hardware_qcom-caf_sm8350_media" />
-      <remove-projectname="hardware_qcom-caf_msm8996_media" />
-      <remove-projectname="hardware_qcom-caf_msm8996_display" />
-      <remove-projectname="hardware_qcom-caf_msm8996_audio" />
-      <remove-projectname="hardware_qcom-caf_sm8250_audio" />
-      <remove-projectname="hardware_qcom-caf_sm8250_display" />
-      <remove-projectname="hardware_qcom-caf_sm8250_media" />
-      <remove-projectname="hardware_qcom-caf_msm8996-r_display" />
-      <remove-projectname="hardware_qcom-caf_msm8996-r_media" />
-      <remove-projectname="hardware_qcom-caf_msm8996-r_audio" />
-      <remove-projectname="hardware_qcom-caf_sdm845_media" />
-      <remove-projectname="hardware_qcom-caf_sdm845_display" />
-      <remove-projectname="hardware_qcom-caf_sdm845_audio" />
-      <remove-projectname="hardware_qcom-caf_msm8998_media" />
-      <remove-projectname="hardware_qcom-caf_msm8998_display" />
-      <remove-projectname="hardware_qcom-caf_msm8998_audio" />
+      <remove-project name="hardware_qcom-caf_msm8996_media" />
+      <remove-project name="hardware_qcom-caf_msm8996_display" />
+      <remove-project name="hardware_qcom-caf_msm8996_audio" />
+      <remove-project name="hardware_qcom-caf_sm8250_audio" />
+      <remove-project name="hardware_qcom-caf_sm8250_display" />
+      <remove-project name="hardware_qcom-caf_sm8250_media" />
+      <remove-project name="hardware_qcom-caf_msm8996-r_display" />
+      <remove-project name="hardware_qcom-caf_msm8996-r_media" />
+      <remove-project name="hardware_qcom-caf_msm8996-r_audio" />
+      <remove-project name="hardware_qcom-caf_sdm845_media" />
+      <remove-project name="hardware_qcom-caf_sdm845_display" />
+      <remove-project name="hardware_qcom-caf_sdm845_audio" />
+      <remove-project name="hardware_qcom-caf_msm8998_media" />
+      <remove-project name="hardware_qcom-caf_msm8998_display" />
+      <remove-project name="hardware_qcom-caf_msm8998_audio" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
