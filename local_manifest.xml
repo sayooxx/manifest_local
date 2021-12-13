@@ -38,7 +38,7 @@
 
    <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
-         <remove-project name="platform/hardware/nxp/nfc" />
+         <remove-project name="hardware_nxp_nfc" />
          
          
    <!-- Hals -->
