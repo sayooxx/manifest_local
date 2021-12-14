@@ -92,16 +92,16 @@
 <!-- add guard for AOSP hardware/qcom dir -->
  <linkfilesrc="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
 <!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
- <linkfilesrc="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+ <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
 <!-- add guards for CAF repositories -->
- <linkfilesrc="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
- <linkfilesrc="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
- <linkfilesrc="os_pickup.bp" dest="hardware/nxp/Android.bp" />
- <linkfilesrc="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
- <linkfilesrc="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
- <linkfilesrc="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
- <linkfilesrc="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
- <linkfilesrc="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
+ <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
+ <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
+ <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
+ <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+ <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
+ <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
+ <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
+ <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
  </project>
       
 </manifest> 
