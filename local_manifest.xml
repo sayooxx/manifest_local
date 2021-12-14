@@ -49,7 +49,7 @@
       <remove-project name="vendor_nxp_opensource_sn100x_hidlimpl" />
       <remove-project name="vendor_nxp_opensource_packages_commonsys_apps_Nfc" />
       <remove-project name="vendor_nxp_opensource_external_commonsys_libnfc-nci" />
-      <remove-project name="vendor_nxp_interfaces_opensource_nfc" />
+      <remove-project name="vendor_nxp_opensource_interfaces_nfc" />
       <remove-project name="vendor_nxp_opensource_commonsys_frameworks" />
       <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
       <remove-project name="vendor_qcom_opensource_commonsys_display" />
