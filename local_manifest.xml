@@ -37,11 +37,9 @@
          <remove-project name="packages_apps_Settings" />
          <remove-project name="hardware_xiaomi" />
          <remove-project name="frameworks_base" />
-         <remove-project name="vendor_voltage" />
          <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ras" revision="12" />
          <project path="frameworks/base" name="frameworks_base" remote="ras" revision="12" />
-         <project path="vendor/voltage" name="vendor_voltage" remote="ras" revision="12" />
-
+         
   <!-- Bluetooth -->
         <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
         <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
