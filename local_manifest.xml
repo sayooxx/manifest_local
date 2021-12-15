@@ -27,50 +27,38 @@
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
         
   <!-- Clang & MiuiCamera --> 
-        <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" /> 
-        <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
+         <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
   
      
 
    <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
+         <remove-project name="platform/hardware/nxp/nfc" />
          <remove-project name="packages_apps_Settings" />
+         <remove-project name="hardware_xiaomi" />
          <remove-project name="frameworks_base" />
-         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ras" revision="snow" />
-         <project path="frameworks/base" name="frameworks_base" remote="ras" revision="snow" />
+         <remove-project name="vendor_voltage" />
+         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ras" revision="12" />
+         <project path="frameworks/base" name="frameworks_base" remote="ras" revision="12" />
+         <project path="vendor/voltage" name="vendor_voltage" remote="ras" revision="12" />
+
+  <!-- Bluetooth -->
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_system_bt" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth_ext" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_bluetooth-commonsys-intf" />
+        <remove-project name="LineageOS/android_vendor_qcom_opensource_packages_apps_Bluetooth" />
+
    
   <!-- Hals -->
-      <remove-project name="hardware_qcom-caf_sm8150_display" />
-      <remove-project name="hardware_qcom-caf_sm8150_audio" />
-      <remove-project name="hardware_qcom-caf_sm8150_media" />
-      <remove-project name="vendor_nxp_opensource_pn5xx_hidlimpl" />
-      <remove-project name="vendor_nxp_opensource_pn5xx_halimpl" />
-      <remove-project name="vendor_nxp_opensource_sn100x_halimpl" />
-      <remove-project name="vendor_nxp_opensource_sn100x_hidlimpl" />
-      <remove-project name="vendor_nxp_opensource_packages_commonsys_apps_Nfc" />
-      <remove-project name="vendor_nxp_opensource_external_commonsys_libnfc-nci" />
-      <remove-project name="vendor_nxp_opensource_interfaces_nfc" />
-      <remove-project name="vendor_nxp_opensource_commonsys_frameworks" />
-      <remove-project name="vendor_qcom_opensource_commonsys-intf_display" />
-      <remove-project name="vendor_qcom_opensource_commonsys_display" />
-      <remove-project name="hardware_qcom-caf_sm8350_audio" />
-      <remove-project name="hardware_qcom-caf_sm8350_display" />
-      <remove-project name="hardware_qcom-caf_sm8350_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_display" />
-      <remove-project name="hardware_qcom-caf_msm8996_audio" />
-      <remove-project name="hardware_qcom-caf_sm8250_audio" />
-      <remove-project name="hardware_qcom-caf_sm8250_display" />
-      <remove-project name="hardware_qcom-caf_sm8250_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_display" />
-      <remove-project name="hardware_qcom-caf_msm8996_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_audio" />
-      <remove-project name="hardware_qcom-caf_sdm845_media" />
-      <remove-project name="hardware_qcom-caf_sdm845_display" />
-      <remove-project name="hardware_qcom-caf_sdm845_audio" />
-      <remove-project name="hardware_qcom-caf_msm8998_media" />
-      <remove-project name="hardware_qcom-caf_msm8998_display" />
-      <remove-project name="hardware_qcom-caf_msm8998_audio" />
+      <remove-project name="hardware_qcom_display" />
+      <remove-project name="hardware_qcom_audio" />
+      <remove-project name="hardware_qcom_media" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_halimpl" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_hidlimpl" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_packages_apps_Nfc" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_external_libnfc-nci" />
+      <remove-project name="LineageOS/android_vendor_nxp_interfaces_opensource_nfc" />
+      <remove-project name="LineageOS/android_vendor_nxp_opensource_frameworks" />
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
@@ -82,27 +70,6 @@
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="Arrow" revision="arrow-12.0-pn5xx" />
       <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_hidlimpl" remote="Arrow" revision="arrow-12.0-pn5xx" />  
-      <project path="vendor/qcom/opensource/commonsys-intf/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="Arrow" revision="arrow-12.0" />
-      <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="Arrow" revision="arrow-12.0" />
-
-
-       <remove-project name="hardware_qcom-caf_common" />
-<!-- hardware repos -->
- <project path="hardware/qcom-caf/common" name="android_hardware_qcom-caf_common" remote="Arrow" revision="arrow-12.0" />
-<!-- add guard for AOSP hardware/qcom dir -->
- <linkfile src="os_pickup_aosp.mk" dest="hardware/qcom/Android.mk" />
-<!-- for AOSP sdm845 and sm8150, we override os_pickup.mk -->
- <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
-<!-- add guards for CAF repositories -->
- <linkfile src="os_pickup_qssi.bp" dest="hardware/qcom-caf/sm8150/Android.bp" />
- <linkfile src="os_pickup.mk" dest="hardware/qcom-caf/sm8150/Android.mk" />
- <linkfile src="os_pickup.bp" dest="hardware/nxp/Android.bp" />
- <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
- <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/pn5xx/Android.bp" />
- <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/pn5xx/Android.mk" />
- <linkfile src="os_pickup.bp" dest="vendor/nxp/opensource/sn100x/Android.bp" />
- <linkfile src="os_pickup.mk" dest="vendor/nxp/opensource/sn100x/Android.mk" />
-
-      
+   
 </manifest> 
 
