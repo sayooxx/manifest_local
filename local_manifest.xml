@@ -15,6 +15,8 @@
            fetch="https://github.com/kdrag0n" />
      <remote  name="gitlab"
            fetch="https://gitlab.com/" />
+     <remote name="strombreaker" 
+           fetch="https://github.com/stormbreaker-project"
 
    <!-- Device Trees -->
         <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
@@ -26,7 +28,7 @@
         <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="ras" revision="12.x" />
 
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="12" />
+        <project name="kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="strombreaker" revision="SaltyIceCream" />
         
   <!-- Clang & MiuiCamera --> 
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
