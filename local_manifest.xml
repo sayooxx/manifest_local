@@ -24,9 +24,7 @@
       
   <!-- Vendor Trees -->
         <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />        
-        <remove-project name="platform_device_qcom_sepolicy_vndr" />
-        <project path="device/qcom/sepolicy_vndr" name="platform_device_qcom_sepolicy_vndr" groups="qcom,pdk-qcom" remote="ras" revision="12.x" />
-
+        
   <!-- Kernel Trees -->
      
         <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
