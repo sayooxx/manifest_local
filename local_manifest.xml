@@ -35,10 +35,7 @@
    <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
          <remove-project name="packages_apps_Settings" />
-         <remove-project name="frameworks_base" />
-         <project path="packages/apps/Settings" name="packages_apps_Settings" remote="ras" revision="snow" />
-         <project path="frameworks/base" name="frameworks_base" remote="ras" revision="snow" />
-   
+         
   <!-- Hals -->
       <remove-project name="hardware_qcom-caf_sm8150_display" />
       <remove-project name="hardware_qcom-caf_sm8150_audio" />
