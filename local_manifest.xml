@@ -17,7 +17,7 @@
            fetch="https://gitlab.com/" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="12" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Elixir-12" /> 
         
       
   <!-- Vendor Trees -->
