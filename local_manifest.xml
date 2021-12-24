@@ -34,8 +34,8 @@
 
    <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
-         <remove-project name="packages_apps_Settings" />
-         
+         <remove-project name="hardware_nxp_nfc" />
+
   <!-- Hals -->
       <remove-project name="hardware_qcom-caf_sm8150_display" />
       <remove-project name="hardware_qcom-caf_sm8150_audio" />
