@@ -35,6 +35,7 @@
    <!-- Rmv -->
          <remove-project name="platform/hardware/nxp/secure_element" />
          <remove-project name="hardware_nxp_nfc" />
+         <remove-project name="hardware_xiaomi" />
 
   <!-- Hals -->
       <remove-project name="hardware_qcom-caf_sm8150_display" />
