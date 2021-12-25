@@ -37,9 +37,6 @@
          <remove-project name="hardware_nxp_nfc" />
 
   <!-- Hals -->
-      <remove-project name="hardware_qcom-caf_sm8150_display" />
-      <remove-project name="hardware_qcom-caf_sm8150_audio" />
-      <remove-project name="hardware_qcom-caf_sm8150_media" />
       <remove-project name="vendor_nxp_opensource_sn100x_halimpl" />
       <remove-project name="vendor_nxp_opensource_sn100x_hidlimpl" />
       <remove-project name="vendor_nxp_opensource_pn5xx_hidlimpl" />
@@ -48,33 +45,13 @@
       <remove-project name="vendor_nxp_opensource_commonsys_external_libnfc-nci" />
       <remove-project name="vendor_nxp_opensource_interfaces_nfc" />
       <remove-project name="vendor_nxp_opensource_commonsys_frameworks" />
-      <remove-project name="vendor_qcom_opensource_commonsys_display" />
-      <remove-project name="hardware_qcom-caf_sm8350_audio" />
-      <remove-project name="hardware_qcom-caf_sm8350_display" />
-      <remove-project name="hardware_qcom-caf_sm8350_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_display" />
-      <remove-project name="hardware_qcom-caf_msm8996_media" />
-      <remove-project name="hardware_qcom-caf_msm8996_audio" />
-      <remove-project name="hardware_qcom-caf_sm8250_audio" />
-      <remove-project name="hardware_qcom-caf_sm8250_display" />
-      <remove-project name="hardware_qcom-caf_sm8250_media" />
-      <remove-project name="hardware_qcom-caf_sdm845_media" />
-      <remove-project name="hardware_qcom-caf_sdm845_display" />
-      <remove-project name="hardware_qcom-caf_sdm845_audio" />
-      <remove-project name="hardware_qcom-caf_msm8998_media" />
-      <remove-project name="hardware_qcom-caf_msm8998_display" />
-      <remove-project name="hardware_qcom-caf_msm8998_audio" />
-      <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
-      <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_vendor_nxp_opensource_packages_apps_Nfc" path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_external_libnfc-nci" path="vendor/nxp/opensource/commonsys/external/libnfc-nci" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_interfaces_opensource_nfc" path="vendor/nxp/opensource/interfaces/nfc" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_frameworks" path="vendor/nxp/opensource/commonsys/frameworks" remote="Arrow" revision="arrow-12.0" />
       <project name="android_vendor_nxp_opensource_hidlimpl" path="vendor/nxp/opensource/sn100x/hidlimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
       <project name="android_vendor_nxp_opensource_halimpl" path="vendor/nxp/opensource/sn100x/halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
-      <project path="vendor/qcom/opensource/commonsys/display" name="android_vendor_qcom_opensource_display-commonsys" remote="Arrow" revision="arrow-12.0" />
-
+      
 
        <remove-project name="hardware_qcom-caf_common" />
 <!-- hardware repos -->
