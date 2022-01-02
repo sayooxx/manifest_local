@@ -13,8 +13,9 @@
             fetch="https://github.com/ghostrider-reborn" />
      <remote name="proto" 
            fetch="https://github.com/kdrag0n" />
-     <remote  name="gitlab"
-           fetch="https://gitlab.com/" />
+     <remote  name="pcj"
+           fetch="https://gitlab.com/Panchajanya1999" />
+
      <remote name="strombreaker" 
            fetch="https://github.com/stormbreaker-project" />
 
@@ -31,7 +32,7 @@
         
   <!-- Clang & MiuiCamera --> 
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
-         <project path="prebuilts/clang/host/linux-x86/trb_clang" name="varunhardgamer/trb_clang" clone-depth="1" revision="14" remote="gitlab" /> 
+         <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" revision="main" remote="pcj" /> 
      
   <!-- Bluetooth -->
         <remove-project name="android_vendor_qcom_opensource_system_bt" />
