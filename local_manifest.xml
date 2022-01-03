@@ -32,7 +32,7 @@
         
   <!-- Clang & MiuiCamera --> 
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
-         <project path="prebuilts/clang/host/linux-x86/clang-azure" name="azure-clang" revision="main" remote="pcj" /> 
+         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" revision="master" remote="proto" /> 
      
   <!-- Bluetooth -->
         <remove-project name="android_vendor_qcom_opensource_system_bt" />
