@@ -15,6 +15,8 @@
            fetch="https://github.com/kdrag0n" />
      <remote  name="pcj"
            fetch="https://gitlab.com/Panchajanya1999" />
+     <remote name="mv" 
+            fetch="https://github.com/mvaisakh" />
 
      <remote name="strombreaker" 
            fetch="https://github.com/stormbreaker-project" />
@@ -28,11 +30,14 @@
         
   <!-- Kernel Trees -->
      
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="arrowos" revision="arrow-12.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="arrow-12.0" />
         
   <!-- Clang & MiuiCamera --> 
          <project name="android_vendor_miuicamera" path="vendor/miuicamera" remote="arrowos" revision="arrow-12.0-a3"/>
-         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" revision="master" remote="proto" /> 
+         <project path="/prebuilts/gcc/linux-x86/aarch64/aarch64-elf-" name="gcc-arm64" revision="gcc-master" remote="mv" /> 
+         <project path="/prebuilts/gcc/linux-x86/arm/arm-eabi-" name="gcc-arm" revision="gcc-master" remote="mv" /> 
+         
+       
      
   <!-- Bluetooth -->
         <remove-project name="android_vendor_qcom_opensource_system_bt" />
