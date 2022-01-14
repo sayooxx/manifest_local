@@ -32,7 +32,7 @@
       <remove-project name="platform_hardware_qcom_media" />
       <remove-project name="platform_vendor_nxp_opensource_halimpl" />
       <remove-project name="platform_vendor_nxp_opensource_hidlimpl" />
-      <remove-project name="android_vendor_nxp_opensource_interfaces_nfc" />
+      <remove-project name="android_vendor_nxp_interfaces_opensource_nfc" />
       <remove-project name="android_vendor_nxp_opensource_external_libnfc-nci" />
       <remove-project name="android_vendor_nxp_opensource_frameworks" />
       <remove-project name="android_vendor_nxp_opensource_packages_apps_Nfc" />
