@@ -32,10 +32,6 @@
       <remove-project name="platform_hardware_qcom_media" />
       <remove-project name="platform_vendor_nxp_opensource_halimpl" />
       <remove-project name="platform_vendor_nxp_opensource_hidlimpl" />
-      <remove-project name="android_vendor_nxp_interfaces_opensource_nfc" />
-      <remove-project name="android_vendor_nxp_opensource_external_libnfc" />
-      <remove-project name="android_vendor_nxp_opensource_frameworks" />
-      <remove-project name="android_vendor_nxp_opensource_packages_apps_Nfc" />
       <remove-project name="android_packages_apps_Nfc" />
       <remove-project name="platform_vendor_qcom_opensource_wfd-commonsys" />
       <remove-project name="platform_packages_apps_Bluetooth" />
@@ -63,10 +59,6 @@
       <project name="android_hardware_qcom_media" path="hardware/qcom-caf/sm8150/media" remote="Arrow" groups="qcom,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_audio" path="hardware/qcom-caf/sm8150/audio" remote="Arrow" groups="qcom,qcom_audio,pdk-qcom"  revision="arrow-12.0-caf-sm8150" />
       <project name="android_hardware_qcom_display" path="hardware/qcom-caf/sm8150/display" remote="Arrow" groups="pdk-qcom,qcom,qcom_display"  revision="arrow-12.0-caf-sm8150" />       <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="arrow" />
-      <project path="vendor/nxp/opensource/interfaces/nfc" name="android_vendor_nxp_interfaces_opensource_nfc" remote="Arrow" revision="arrow-12.0" />   
-      <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="android_vendor_nxp_opensource_external_libnfc-nci" remote="Arrow" revision="arrow-12.0" />
-      <project path="vendor/nxp/opensource/commonsys/frameworks" name="android_vendor_nxp_opensource_frameworks" remote="Arrow" revision="arrow-12.0" />
-      <project path="vendor/nxp/opensource/commonsys/packages/apps/Nfc" name="android_vendor_nxp_opensource_packages_apps_Nfc" remote="Arrow" revision="arrow-12.0" />
       <project path="vendor/nxp/opensource/pn5xx/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="Arrow" revision="arrow-12.0-pn5xx"/>
       <project path="vendor/nxp/opensource/pn5xx/hidlimpl" name="android_vendor_nxp_opensource_halimpl" remote="Arrow" revision="arrow-12.0-pn5xx" />
       <project path="vendor/nxp/opensource/sn100x/halimpl" name="android_vendor_nxp_opensource_halimpl" remote="Arrow" revision="arrow-12.0-sn100x" />
