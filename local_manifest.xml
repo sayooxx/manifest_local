@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
           
-     <remote name="ras"
-            fetch="https://github.com/rasenss"/>
+     <remote name="kairo"
+            fetch="https://github.com/Kairosmth"/>
      <remote name="arrowos"
             fetch="https://github.com/ArrowOS-Devices" />
      <remote name="pixelos"
@@ -17,14 +17,14 @@
            fetch="https://gitlab.com/Panchajanya1999" />
 
    <!-- Device Trees -->
-        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="ras" revision="Pixel-12" /> 
+        <project name="android_device_xiaomi_ginkgo" path="device/xiaomi/ginkgo" remote="kairo" revision="Pixel-12" /> 
         
       
   <!-- Vendor Trees -->
-        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="ras" revision="arrow-12.0" />        
+        <project name="android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="kairo" revision="arrow-12.0" />        
 
   <!-- Kernel Trees -->
-        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="ras" revision="arrow-12.0" />
+        <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="kairo" revision="arrow-12.0" />
         
   <!-- Clang & MiuiCamera --> 
         <project path="prebuilts/clang/host/linux-x86/clang-proton" name="proton-clang" revision="master" remote="proto" /> 
